@@ -1,0 +1,1 @@
+export class Economy { constructor(){ this.money=40; this.listeners=[]; } add(value){ this.money+=value; this.emit(); } spend(value){ if(this.money<value) return false; this.money-=value; this.emit(); return true; } onChange(fn){this.listeners.push(fn); fn(this.money);} emit(){this.listeners.forEach(fn=>fn(this.money));} }
