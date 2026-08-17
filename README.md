@@ -4,14 +4,14 @@
 
 ## Запуск
 
-Нужен Node.js 20+ и пакетный менеджер pnpm.
+Нужен Node.js 20+ (npm поставляется вместе с ним).
 
 ```bash
-pnpm install
-pnpm dev
+npm install
+npm run dev
 ```
 
-Откройте адрес, который покажет Vite (обычно `http://localhost:5173`). Для итоговой проверки сборки: `pnpm build`, затем `pnpm preview`.
+Откройте адрес, который покажет Vite (обычно `http://localhost:5173`). Для итоговой проверки сборки: `npm run build`, затем `npm run preview`.
 
 ## Управление
 
